@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { Terminal, Code, Search, Book, Github } from 'lucide-react'
+import Image from 'next/image'
 
 export default function WikiLandingPage() {
   const [typedText, setTypedText] = useState('')

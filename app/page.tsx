@@ -41,12 +41,12 @@ export default function WikiLandingPage() {
             Access Wikipedia from your terminal
           </motion.h1>
           <motion.p 
-            className="text-xl text-gray-300 mb-8"
+            className="text-xl text-gray-500 mb-8"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            Instant knowledge at your fingertips, no browser required.
+            Instant knowledge at your fingertips, no browser required, Completely Open Source
           </motion.p>
           <motion.div 
             className="bg-gray-900 p-4 rounded-lg text-left inline-block mb-8 overflow-hidden"
@@ -78,7 +78,7 @@ export default function WikiLandingPage() {
                 Install on Windows
               </a>
             </div>
-            <div className="text-gray-400 text-sm">
+            <div className="text-gray-500 text-sm">
               <p>or use winget: <code className="text-green-400">winget install RCharan.wiki</code></p>
               
             </div>
@@ -165,23 +165,6 @@ Summary:
 Alan Mathison Turing (/ˈtjʊərɪŋ/; 23 June 1912 – 7 June 1954) was an English mathematician, computer scientist, logician, cryptanalyst, philosopher and theoretical biologist. He was highly influential in the development of theoretical computer science, providing a formalisation of the concepts of algorithm and computation with the Turing machine, which can be considered a model of a general-purpose computer. Turing is widely considered to be the father of theoretical computer science.
 Born in London, Turing was raised in southern England. He graduated from King's College, Cambridge, and in 1938, earned a doctorate degree from Princeton University. During World War II, Turing worked for the Government Code and Cypher School at Bletchley Park, Britain's codebreaking centre that produced Ultra intelligence. He led Hut 8, the section responsible for German naval cryptanalysis. Turing devised techniques for speeding the breaking of German ciphers, including improvements to the pre-war Polish bomba method, an electromechanical machine that could find settings for the Enigma machine. He played a crucial role in cracking intercepted messages that enabled the Allies to defeat the Axis powers in many engagements, including the Battle of the Atlantic.
 Read more: https://en.wikipedia.org/wiki/Alan_Turing
-
-
-$ wiki -h
-usage: wiki [-h] [-gai] [--gai] [query]
-
-Search for Wikipedia pages and interact with Gemini AI.
-
-positional arguments:
-  query       The Wikipedia page to search for
-
-options:
-  -h, --help  show this help message and exit
-  -gai        Give the query to Gemini AI and get a response
-  --gai       Enter continuous prompt mode to interact with Gemini AI
-
-Example:
-  wiki "Albert Einstein"     # Displays a summary about Albert Einstein
               `}</code>
             </pre>
           </div>

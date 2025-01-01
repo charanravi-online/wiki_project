@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
-import { Terminal, Code, Search, Book, Github, Download, LaptopIcon as Linux, ComputerIcon as Windows } from 'lucide-react'
+import { Terminal, Search, Book, Github, LaptopIcon as Linux, ComputerIcon as Windows } from 'lucide-react'
 
 export default function WikiLandingPage() {
   const [typedText, setTypedText] = useState('')
